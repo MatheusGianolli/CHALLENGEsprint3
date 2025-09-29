@@ -6,8 +6,9 @@ import ContactPage from '../pages/ContactPage';
 import FaqPage from '../pages/FaqPage';
 import TeamPage from '../pages/TeamPage';
 import ServiceDetailPage from '../pages/ServiceDetailPage';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+// import Header from '../components/Header';
+import Header from '../componentes/Header';
+import Footer from '../componentes/Footer'; 
 
 export default function AppRoutes() {
   return (
