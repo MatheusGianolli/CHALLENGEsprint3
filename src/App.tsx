@@ -1,10 +1,10 @@
-// src/App.tsx
+//// src/App.tsx
 
-import AppRoutes from './Routes/AppRoutes';
-import './index.css'; // Importa o CSS com o Tailwind
+// CORREÇÃO: Mude 'Routes' para 'routes' com 'r' minúsculo
+import AppRoutes from './routes/AppRoutes';
+import './index.css';
 
 function App() {
-  // O componente App principal agora apenas renderiza nossas rotas.
   return <AppRoutes />;
 }
 
