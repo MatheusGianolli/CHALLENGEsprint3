@@ -1,9 +1,9 @@
-// src/pages/HomePage.tsx
+
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 export default function HomePage() {
-  // --- Lógica para a frase motivacional dinâmica ---
+ 
   const motivationalPhrases = [
     "Cuidar da sua saúde é um ato de coragem. Estamos aqui para ajudar.",
     "Um pequeno passo hoje para o seu bem-estar de amanhã.",
@@ -16,15 +16,15 @@ export default function HomePage() {
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentPhraseIndex((prevIndex) => (prevIndex + 1) % motivationalPhrases.length);
-    }, 5000); // Muda a frase a cada 5 segundos
+    }, 5000); 
 
-    return () => clearInterval(timer); // Limpa o timer ao sair da página
+    return () => clearInterval(timer); 
   }, [motivationalPhrases.length]);
   // ---------------------------------------------------
 
   return (
     <div>
-      {/* Seção Principal (Hero) */}
+      {}
       <section className="bg-blue-50 text-center py-20 px-6">
         <h2 className="text-4xl md:text-5xl font-bold text-hc-blue-dark mb-4">
           Bem-vindo ao Atendimento Digital HC
@@ -42,7 +42,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Seção da Frase Motivacional */}
+      {}
       <section className="py-8 bg-white">
         <div className="container mx-auto px-6 text-center">
           <p className="text-lg text-gray-600 italic">
@@ -51,24 +51,24 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Seção de Acesso Rápido */}
+      {}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-6">
           <h3 className="text-3xl font-bold text-center mb-10">Como podemos te ajudar hoje?</h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Card 1: Agendar Consulta */}
+            {}
             <Link to="/consulta/agendar" className="block p-8 bg-white rounded-lg shadow-lg text-center hover:shadow-xl hover:-translate-y-2 transition-all duration-300">
               <div className="text-4xl mb-4">📅</div>
               <h4 className="text-xl font-bold mb-2">Agendar Consulta</h4>
               <p className="text-gray-600">Encontre especialistas e marque sua teleconsulta em poucos minutos.</p>
             </Link>
-            {/* Card 2: Resultados de Exames */}
+            {}
             <Link to="/resultados" className="block p-8 bg-white rounded-lg shadow-lg text-center hover:shadow-xl hover:-translate-y-2 transition-all duration-300">
               <div className="text-4xl mb-4">🔬</div>
               <h4 className="text-xl font-bold mb-2">Resultados de Exames</h4>
               <p className="text-gray-600">Acesse seus resultados de forma segura e prática, de qualquer lugar.</p>
             </Link>
-            {/* Card 3: Fale com Suporte */}
+            {}
             <Link to="/contato" className="block p-8 bg-white rounded-lg shadow-lg text-center hover:shadow-xl hover:-translate-y-2 transition-all duration-300">
               <div className="text-4xl mb-4">💬</div>
               <h4 className="text-xl font-bold mb-2">Fale com Suporte</h4>
@@ -78,7 +78,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Seção Como Funciona */}
+      {}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-6">
           <h3 className="text-3xl font-bold text-center mb-10">Teleatendimento em 3 Passos Simples</h3>

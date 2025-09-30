@@ -1,10 +1,10 @@
-// src/pages/AboutPage.tsx
+
 import { Link } from 'react-router-dom';
 
 export default function AboutPage() {
   return (
     <div className="bg-white">
-      {/* Seção Principal (Hero) */}
+      {}
       <section className="bg-gray-50 text-center py-16 px-6">
         <h1 className="text-4xl md:text-5xl font-bold text-hc-blue-dark mb-4">
           Cuidando de você, onde quer que você esteja.
@@ -14,11 +14,11 @@ export default function AboutPage() {
         </p>
       </section>
 
-      {/* Seção Missão, Visão e Valores */}
+      {}
       <section className="py-20">
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
-            {/* Card Missão */}
+            {}
             <div className="flex flex-col items-center">
               <div className="text-5xl mb-4">🎯</div>
               <h3 className="text-2xl font-bold mb-2">Nossa Missão</h3>
@@ -26,7 +26,7 @@ export default function AboutPage() {
                 Democratizar o acesso à saúde de qualidade, utilizando a tecnologia para conectar pacientes e médicos de forma segura, eficiente e empática.
               </p>
             </div>
-            {/* Card Visão */}
+            {}
             <div className="flex flex-col items-center">
               <div className="text-5xl mb-4">👀</div>
               <h3 className="text-2xl font-bold mb-2">Nossa Visão</h3>
@@ -34,7 +34,7 @@ export default function AboutPage() {
                 Ser a plataforma de teleatendimento líder em confiança e inovação no Brasil, reconhecida pela excelência no cuidado e pela experiência do paciente.
               </p>
             </div>
-            {/* Card Valores */}
+            {}
             <div className="flex flex-col items-center">
               <div className="text-5xl mb-4">❤️</div>
               <h3 className="text-2xl font-bold mb-2">Nossos Valores</h3>
@@ -46,12 +46,12 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Seção Nossa Equipe */}
+      {}
       <section className="py-20 bg-blue-50">
         <div className="container mx-auto px-6">
           <h2 className="text-3xl font-bold text-center mb-10">Conheça Nossos Líderes</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Exemplo de Card de Membro da Equipe */}
+            {}
             <div className="bg-white rounded-lg shadow-lg p-6 text-center group transition-all duration-300 hover:bg-hc-blue hover:text-white">
               <div className="w-32 h-32 rounded-full mx-auto bg-gray-200 mb-4 flex items-center justify-center text-5xl">
                 🧑‍⚕️
@@ -59,7 +59,7 @@ export default function AboutPage() {
               <h4 className="text-xl font-bold">Dr. Amanda Lemos</h4>
               <p className="text-gray-500 group-hover:text-blue-100">Cardiologista Chefe</p>
             </div>
-            {/* Exemplo de Card de Membro da Equipe */}
+            {}
             <div className="bg-white rounded-lg shadow-lg p-6 text-center group transition-all duration-300 hover:bg-hc-blue hover:text-white">
               <div className="w-32 h-32 rounded-full mx-auto bg-gray-200 mb-4 flex items-center justify-center text-5xl">
                 👩‍⚕️
@@ -67,7 +67,7 @@ export default function AboutPage() {
               <h4 className="text-xl font-bold">Dra. Sofia Ribeiro</h4>
               <p className="text-gray-500 group-hover:text-blue-100">Psicóloga Clínica</p>
             </div>
-            {/* Exemplo de Card de Membro da Equipe */}
+            {}
             <div className="bg-white rounded-lg shadow-lg p-6 text-center group transition-all duration-300 hover:bg-hc-blue hover:text-white">
               <div className="w-32 h-32 rounded-full mx-auto bg-gray-200 mb-4 flex items-center justify-center text-5xl">
                 👨‍🔬
@@ -79,7 +79,7 @@ export default function AboutPage() {
         </div>
       </section>
       
-      {/* Seção de Chamada para Ação (CTA) */}
+      {}
       <section className="py-20 text-center">
         <div className="container mx-auto px-6">
           <h2 className="text-3xl font-bold mb-4">Pronto para começar a cuidar da sua saúde?</h2>

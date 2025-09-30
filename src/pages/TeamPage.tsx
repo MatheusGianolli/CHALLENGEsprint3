@@ -1,9 +1,9 @@
-// src/pages/TeamPage.tsx
+
 export default function TeamPage() {
   const teamMembers = [
     { nome: "Nome Completo 1", rm: "RM12345", turma: "Turma X" },
     { nome: "Nome Completo 2", rm: "RM54321", turma: "Turma Y" },
-    // Adicione os outros integrantes aqui
+    
   ];
 
   return (
