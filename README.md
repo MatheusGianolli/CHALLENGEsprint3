@@ -27,7 +27,7 @@ A funcionalidade de **Acordeão**, visível na página de FAQ,foi construído ut
 3. Rode o projeto em modo de desenvolvimento: `npm run dev`
 
  Link do Repositório no GitHub
-(COLOQUE O LINK DO SEU REPOSITÓRIO AQUI)
+https://github.com/MatheusGianolli/CHALLENGEsprint3
 
   Vídeo de Apresentação no YouTube
 (COLOQUE O LINK DO SEU VÍDEO AQUI)
