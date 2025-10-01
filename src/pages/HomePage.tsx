@@ -11,6 +11,8 @@ export default function HomePage() {
     "Priorizar sua saúde é o maior investimento que você pode fazer.",
     "Gratidão pela vida não é dizer obrigado, é cuidar de si mesmo. ",
     "Olhe para si com olhos de amor e pratique o autocuidado, assim você apreciará quem realmente é."
+    "Não é egoísmo cuidar da sua saúde mental.Cuide de si mesmo antes de qualquer outro ser. "
+    "Não é uma atitude egoísta priorizar cuidar de si próprio. Egoísmo é ser uma pessoa tóxica por não estar bem. Quando cuido de mim, deixo circular no mundo minha melhor versão, espalhando paz e bem."
   ];
 
   const [currentPhraseIndex, setCurrentPhraseIndex] = useState(0);
