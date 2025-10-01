@@ -20,7 +20,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
             {}
             <div className="flex flex-col items-center">
-              <div className="text-5xl mb-4">🎯</div>
+              <div className="text-5xl md-7">🎯</div>
               <h3 className="text-2xl font-bold mb-2">Nossa Missão</h3>
               <p className="text-gray-620">
                 Democratizar o acesso à saúde de qualidade, utilizando a tecnologia para conectar pacientes e médicos de forma segura, eficiente e empática.

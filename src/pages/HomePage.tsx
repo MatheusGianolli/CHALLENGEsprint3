@@ -10,8 +10,8 @@ export default function HomePage() {
     "Você não está sozinho(a). Nossa equipe está a um clique de distância.",
     "Priorizar sua saúde é o maior investimento que você pode fazer.",
     "Gratidão pela vida não é dizer obrigado, é cuidar de si mesmo. ",
-    "Olhe para si com olhos de amor e pratique o autocuidado, assim você apreciará quem realmente é."
-    "Não é egoísmo cuidar da sua saúde mental.Cuide de si mesmo antes de qualquer outro ser. "
+    "Olhe para si com olhos de amor e pratique o autocuidado, assim você apreciará quem realmente é.",
+    "Não é egoísmo cuidar da sua saúde mental.Cuide de si mesmo antes de qualquer outro ser.",
     "Não é uma atitude egoísta priorizar cuidar de si próprio. Egoísmo é ser uma pessoa tóxica por não estar bem. Quando cuido de mim, deixo circular no mundo minha melhor versão, espalhando paz e bem."
   ];
 
@@ -36,7 +36,7 @@ export default function HomePage() {
         <p className="text-lg text-gray-700 max-w-2xl mx-auto mb-8">
           Sua saúde conectada a você, onde quer que esteja. Acesso rápido, seguro e humano a cuidados médicos de qualidade.
         </p>
-        <div className="space-x-4">
+        <div className="flex flex-col items-center space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
           <Link to="/consulta/agendar" className="bg-hc-green hover:bg-hc-green-dark text-white font-bold py-3 px-8 rounded-full transition-colors duration-300">
             Agendar Consulta
           </Link>

@@ -14,7 +14,7 @@ export default function ServiceDetailPage() {
 
   return (
     <div className="container mx-auto px-5 py-7">
-      <h2 className="text-3xl font-bold mb-4">
+      <h2 className="text-3xl font-bold md-7">
         Detalhes do Serviço: <span className="capitalize text-blue-700">{id}</span>
       </h2>
       <p>Aqui seriam exibidas informações detalhadas sobre a especialidade de {id}.</p>

@@ -15,7 +15,7 @@ export default function AppRoutes() {
     <BrowserRouter>
       {/* Header e Footer ficam fora do <Routes> para aparecerem em todas as páginas */}
       <Header />
-      <main className="pt-20"> {/* pt-20 para não ficar embaixo do header fixo */}
+      <main className="pt-20 overflow-x-hidden"> {/* pt-20 para não ficar embaixo do header fixo */}
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/sobre" element={<AboutPage />} />
