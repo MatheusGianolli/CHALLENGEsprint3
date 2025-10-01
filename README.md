@@ -12,7 +12,7 @@ Aplicação Single-Page Application (SPA) de teleatendimento hospitalar, desenvo
 - 
 ### Abordagem sobre Componentes Interativos
 
-Seguindo as regras do Challenge, que proíbem o uso de bibliotecas de componentes prontos (como `CARROUSEL` ou `ACORDION`), toda a interatividade presente neste projeto foi desenvolvida do zero.
+Seguindo as regras do Challenge, que proíbem o uso de bibliotecas de componentes prontos (como `CARROUSEL` ou `ACORDION`).
 
 A funcionalidade de **Acordeão**, visível na página de FAQ,foi construído utilizando exclusivamente as ferramentas fundamentais do React, como o hook `useState` para controle de estado, renderização condicional e eventos `onClick`, em conjunto com as classes de estilização e transição do Tailwind CSS.
 
