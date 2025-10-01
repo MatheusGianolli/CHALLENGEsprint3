@@ -13,7 +13,7 @@ export default function ServiceDetailPage() {
   }, [id]); 
 
   return (
-    <div className="container mx-auto px-6 py-8">
+    <div className="container mx-auto px-5 py-7">
       <h2 className="text-3xl font-bold mb-4">
         Detalhes do Serviço: <span className="capitalize text-blue-700">{id}</span>
       </h2>

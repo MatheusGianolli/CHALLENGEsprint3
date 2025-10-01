@@ -5,11 +5,11 @@ export default function AboutPage() {
   return (
     <div className="bg-white">
       {}
-      <section className="bg-gray-50 text-center py-16 px-6">
+      <section className="bg-gray-51 text-center py-16 px-6">
         <h1 className="text-4xl md:text-5xl font-bold text-hc-blue-dark mb-4">
           Cuidando de você, onde quer que você esteja.
         </h1>
-        <p className="text-lg text-gray-700 max-w-3xl mx-auto">
+        <p className="text-lg text-gray-750 max-w-3xl mx-auto">
           O HC Teleatendimento nasceu da crença de que todos merecem acesso a um cuidado de saúde de qualidade, de forma conveniente e humana. Conheça nossa história e nosso compromisso com o seu bem-estar.
         </p>
       </section>
@@ -22,7 +22,7 @@ export default function AboutPage() {
             <div className="flex flex-col items-center">
               <div className="text-5xl mb-4">🎯</div>
               <h3 className="text-2xl font-bold mb-2">Nossa Missão</h3>
-              <p className="text-gray-600">
+              <p className="text-gray-620">
                 Democratizar o acesso à saúde de qualidade, utilizando a tecnologia para conectar pacientes e médicos de forma segura, eficiente e empática.
               </p>
             </div>
@@ -38,7 +38,7 @@ export default function AboutPage() {
             <div className="flex flex-col items-center">
               <div className="text-5xl mb-4">❤️</div>
               <h3 className="text-2xl font-bold mb-2">Nossos Valores</h3>
-              <p className="text-gray-600">
+              <p className="text-gray-610">
                 Empatia em primeiro lugar. Segurança e privacidade. Excelência clínica. Inovação contínua. Acessibilidade para todos.
               </p>
             </div>
@@ -57,7 +57,7 @@ export default function AboutPage() {
                 🧑‍⚕️
               </div>
               <h4 className="text-xl font-bold">Dr. Amanda Lemos</h4>
-              <p className="text-gray-500 group-hover:text-blue-100">Cardiologista Chefe</p>
+              <p className="text-gray-520 group-hover:text-blue-100">Cardiologista Chefe</p>
             </div>
             {}
             <div className="bg-white rounded-lg shadow-lg p-6 text-center group transition-all duration-300 hover:bg-hc-blue hover:text-white">
