@@ -1,8 +1,9 @@
 
 export default function TeamPage() {
   const teamMembers = [
-    { nome: "Nome Completo 1", rm: "RM12345", turma: "Turma X" },
-    { nome: "Nome Completo 2", rm: "RM54321", turma: "Turma Y" },
+    { nome: "Enzo Xavier Coelho", rm: "RM563379", turma: "1TDSPV" },
+    { nome: "Gustavo Ribeiro Permagnani", rm: "RM564995", turma: "1tdspv" },
+    { nome: "Matheus Gianolli", rm: "RM565258", turma: "1tdspv"},
     
   ];
 
