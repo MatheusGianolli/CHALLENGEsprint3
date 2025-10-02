@@ -30,4 +30,4 @@ A funcionalidade de **Acordeão**, visível na página de FAQ,foi construído ut
 https://github.com/MatheusGianolli/CHALLENGEsprint3
 
   Vídeo de Apresentação no YouTube
-(COLOQUE O LINK DO SEU VÍDEO AQUI)
+https://youtu.be/Zb9-XfkoRSg
