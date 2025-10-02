@@ -6,25 +6,25 @@ export default function TeamPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100">
-      <div className="container mx-auto px-6 py-12">
-        <h2 className="text-4xl font-extrabold mb-8">
-          <span className="bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent">
-            Integrantes do Projeto
-          </span>
+    <div className="min-h-screen bg-gradient-to-br from-sky-200 via-fuchsia-200 to-rose-200">
+      <div className="container mx-auto px-6 py-14">
+        <h2 className="text-4xl font-black mb-10 text-slate-900/90">
+          Integrantes do Projeto
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
           {teamMembers.map((member) => (
             <div
               key={member.rm}
-              className="rounded-2xl border border-slate-800 bg-slate-900/60 p-6 shadow-[0_0_0_1px_rgba(16,185,129,0.1)] hover:shadow-[0_0_0_2px_rgba(16,185,129,0.25)] transition-shadow"
+              className="rounded-3xl p-6 border border-white/30 bg-white/20 backdrop-blur-xl shadow-lg"
             >
-              <p className="text-xl font-semibold">{member.nome}</p>
-              <p className="text-slate-300 mt-2">RM: {member.rm}</p>
-              <span className="inline-block mt-3 text-xs font-medium px-2.5 py-1 rounded-full border border-emerald-500/30 text-emerald-300">
-                {member.turma.toUpperCase()}
-              </span>
+              <div className="flex items-start justify-between">
+                <p className="font-semibold text-lg text-slate-900/90">{member.nome}</p>
+                <span className="text-xs font-medium px-2.5 py-1 rounded-full bg-white/40 text-slate-800 border border-white/50">
+                  {member.turma.toUpperCase()}
+                </span>
+              </div>
+              <p className="text-slate-800/80 mt-2">RM: {member.rm}</p>
             </div>
           ))}
         </div>
@@ -32,5 +32,6 @@ export default function TeamPage() {
     </div>
   );
 }
+
 
 
