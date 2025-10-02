@@ -6,32 +6,29 @@ export default function TeamPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-sky-200 via-fuchsia-200 to-rose-200">
-      <div className="container mx-auto px-6 py-14">
-        <h2 className="text-4xl font-black mb-10 text-slate-900/90">
-          Integrantes do Projeto
-        </h2>
+    <div className="container mx-auto px-6 py-10">
+      <h2 className="text-3xl font-bold mb-6">Integrantes do Projeto</h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
-          {teamMembers.map((member) => (
-            <div
-              key={member.rm}
-              className="rounded-3xl p-6 border border-white/30 bg-white/20 backdrop-blur-xl shadow-lg"
-            >
-              <div className="flex items-start justify-between">
-                <p className="font-semibold text-lg text-slate-900/90">{member.nome}</p>
-                <span className="text-xs font-medium px-2.5 py-1 rounded-full bg-white/40 text-slate-800 border border-white/50">
-                  {member.turma.toUpperCase()}
-                </span>
-              </div>
-              <p className="text-slate-800/80 mt-2">RM: {member.rm}</p>
+      <div className="overflow-hidden rounded-2xl border border-gray-200 bg-white">
+        {teamMembers.map((member, idx) => (
+          <div
+            key={member.rm}
+            className={`flex flex-col sm:flex-row sm:items-center justify-between gap-2 px-6 py-4 ${idx !== teamMembers.length - 1 ? "border-b border-gray-200" : ""}`}
+          >
+            <div>
+              <p className="font-medium text-gray-900">{member.nome}</p>
+              <p className="text-sm text-gray-600">
+                RM: <span className="font-mono tracking-tight">{member.rm}</span>
+              </p>
             </div>
-          ))}
-        </div>
+            <span className="self-start sm:self-auto text-xs font-semibold px-2.5 py-1 rounded-full bg-gray-100 text-gray-700">
+              {member.turma.toUpperCase()}
+            </span>
+          </div>
+        ))}
       </div>
     </div>
   );
 }
-
 
 
